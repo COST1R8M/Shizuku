@@ -1,4 +1,419 @@
+nRF Connect, 2024-03-16
+TCL ION V (E8:8F:6F:50:52:E5)
+V	20:04:24.150	Connecting to E8:8F:6F:50:52:E5...
+D	20:04:24.150	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+D	20:04:54.184	[Callback] Connection state changed with status: 133 and new state: DISCONNECTED (0)
+E	20:04:54.185	Error 133 (0x85): GATT ERROR
+I	20:04:54.185	Disconnected
+D	20:05:01.779	gatt.close()
+D	20:05:01.780	wait(200)
+V	20:05:01.981	Connecting to E8:8F:6F:50:52:E5...
+D	20:05:01.981	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+D	20:05:31.989	[Callback] Connection state changed with status: 133 and new state: DISCONNECTED (0)
+E	20:05:31.989	Error 133 (0x85): GATT ERROR
+I	20:05:31.989	Disconnected
 
+nRF Connect, 2024-03-18
+TCL ION V (E8:8F:6F:50:52:E5)
+I	20:50:29.658	Service changed, invalidating services
+V	20:50:29.666	Refreshing device cache...
+D	20:50:29.666	gatt.refresh() (hidden)
+I	20:50:29.669	Cache refreshed
+V	20:50:29.669	Discovering services...
+D	20:50:29.669	gatt.discoverServices()
+I	20:50:30.103	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:50:30.174	[Callback] Services discovered with status: 0
+I	20:50:30.174	Services discovered
+V	20:50:30.176	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+I	20:50:30.286	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:50:45.643	Service changed, invalidating services
+V	20:50:45.650	Refreshing device cache...
+D	20:50:45.650	gatt.refresh() (hidden)
+I	20:50:45.653	Cache refreshed
+V	20:50:45.653	Discovering services...
+D	20:50:45.653	gatt.discoverServices()
+I	20:50:46.086	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:50:46.233	[Callback] Services discovered with status: 0
+I	20:50:46.233	Services discovered
+V	20:50:46.246	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+D	20:50:46.247	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:50:46.344	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:51:15.644	Service changed, invalidating services
+V	20:51:15.644	Refreshing device cache...
+D	20:51:15.644	gatt.refresh() (hidden)
+I	20:51:15.650	Cache refreshed
+V	20:51:15.650	Discovering services...
+D	20:51:15.650	gatt.discoverServices()
+I	20:51:16.086	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:51:16.166	[Callback] Services discovered with status: 0
+I	20:51:16.166	Services discovered
+V	20:51:16.172	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+I	20:51:16.277	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:52:16.633	Service changed, invalidating services
+V	20:52:16.633	Refreshing device cache...
+D	20:52:16.633	gatt.refresh() (hidden)
+I	20:52:16.653	Cache refreshed
+V	20:52:16.653	Discovering services...
+D	20:52:16.653	gatt.discoverServices()
+I	20:52:17.078	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:52:17.222	[Callback] Services discovered with status: 0
+I	20:52:17.222	Services discovered
+V	20:52:17.229	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+D	20:52:17.230	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:52:17.329	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:52:54.671	Service changed, invalidating services
+V	20:52:54.677	Refreshing device cache...
+D	20:52:54.677	gatt.refresh() (hidden)
+I	20:52:54.680	Cache refreshed
+V	20:52:54.680	Discovering services...
+D	20:52:54.680	gatt.discoverServices()
+I	20:52:55.117	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:52:55.187	[Callback] Services discovered with status: 0
+I	20:52:55.187	Services discovered
+V	20:52:55.190	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+I	20:52:55.300	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:53:38.413	Service changed, invalidating services
+V	20:53:38.423	Refreshing device cache...
+D	20:53:38.423	gatt.refresh() (hidden)
+I	20:53:38.436	Cache refreshed
+V	20:53:38.436	Discovering services...
+D	20:53:38.436	gatt.discoverServices()
+I	20:53:38.846	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:53:38.988	[Callback] Services discovered with status: 0
+I	20:53:38.989	Services discovered
+V	20:53:39.002	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+D	20:53:39.003	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:53:39.086	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:53:39.671	Service changed, invalidating services
+V	20:53:39.677	Refreshing device cache...
+D	20:53:39.678	gatt.refresh() (hidden)
+I	20:53:39.679	Cache refreshed
+V	20:53:39.679	Discovering services...
+D	20:53:39.679	gatt.discoverServices()
+I	20:53:40.118	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:53:40.187	[Callback] Services discovered with status: 0
+I	20:53:40.187	Services discovered
+V	20:53:40.190	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+I	20:53:40.301	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:54:00.291	Service changed, invalidating services
+V	20:54:00.300	Refreshing device cache...
+D	20:54:00.300	gatt.refresh() (hidden)
+I	20:54:00.303	Cache refreshed
+V	20:54:00.303	Discovering services...
+D	20:54:00.303	gatt.discoverServices()
+I	20:54:00.735	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:54:00.875	[Callback] Services discovered with status: 0
+I	20:54:00.875	Services discovered
+V	20:54:00.882	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+D	20:54:00.882	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:54:00.986	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:54:17.611	Service changed, invalidating services
+V	20:54:17.622	Refreshing device cache...
+D	20:54:17.622	gatt.refresh() (hidden)
+I	20:54:17.624	Cache refreshed
+V	20:54:17.624	Discovering services...
+D	20:54:17.624	gatt.discoverServices()
+I	20:54:18.054	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:54:18.263	[Callback] Services discovered with status: 0
+I	20:54:18.263	Services discovered
+V	20:54:18.275	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+   Unknown Descriptor (00002800-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+D	20:54:18.275	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:54:18.371	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+D	20:54:24.993	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
+D	20:54:45.812	[Broadcast] Action received: android.bluetooth.device.action.ACL_DISCONNECTED
+I	20:54:45.821	Disconnected
+D	20:54:51.865	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
+D	20:54:51.865	gatt.close()
+D	20:54:51.879	wait(200)
+V	20:54:52.079	Connecting to E8:8F:6F:50:52:E5...
+D	20:54:52.081	gatt = device.connectGatt(autoConnect = true, TRANSPORT_LE, preferred PHY = LE 1M, LE 2M or LE Coded)
+D	20:54:52.094	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	20:54:52.094	Connected to E8:8F:6F:50:52:E5
+V	20:54:52.157	Requesting new MTU...
+D	20:54:52.157	gatt.requestMtu(517)
+I	20:54:52.304	MTU changed to: 517
+D	20:54:52.312	wait(1600ms)
+V	20:54:53.914	Discovering services...
+D	20:54:53.914	gatt.discoverServices()
+D	20:54:53.924	[Callback] Services discovered with status: 0
+I	20:54:53.924	Services discovered
+V	20:54:53.935	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+   Unknown Descriptor (00002800-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+D	20:54:53.935	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:54:57.713	Service changed, invalidating services
+V	20:54:57.720	Refreshing device cache...
+D	20:54:57.720	gatt.refresh() (hidden)
+I	20:54:57.723	Cache refreshed
+V	20:54:57.724	Discovering services...
+D	20:54:57.724	gatt.discoverServices()
+I	20:54:58.156	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:54:58.333	[Callback] Services discovered with status: 0
+I	20:54:58.333	Services discovered
+V	20:54:58.343	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+I	20:54:58.443	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:55:04.344	Service changed, invalidating services
+V	20:55:04.353	Refreshing device cache...
+D	20:55:04.353	gatt.refresh() (hidden)
+I	20:55:04.355	Cache refreshed
+V	20:55:04.355	Discovering services...
+D	20:55:04.355	gatt.discoverServices()
+I	20:55:04.785	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:55:05.026	[Callback] Services discovered with status: 0
+I	20:55:05.026	Services discovered
+V	20:55:05.045	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+D	20:55:05.045	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:55:05.133	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+I	20:55:05.280	Service changed, invalidating services
+V	20:55:05.289	Refreshing device cache...
+D	20:55:05.289	gatt.refresh() (hidden)
+I	20:55:05.290	Cache refreshed
+V	20:55:05.290	Discovering services...
+D	20:55:05.290	gatt.discoverServices()
+I	20:55:05.722	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	20:55:05.963	[Callback] Services discovered with status: 0
+I	20:55:05.963	Services discovered
+V	20:55:05.976	Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+- Server Supported Features [R] (0x2B3A)
+- Client Supported Features [R W] (0x2B29)
+- Database Hash [R] (0x2B2A)
+Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+- Central Address Resolution [R] (0x2AA6)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+   Client Characteristic Configuration (0x2902)
+   Client Characteristic Configuration (0x2902)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+- Unknown Characteristic [I] (00000100-0004-1000-8000-001a11000102)
+- Unknown Characteristic [W] (00000100-0004-1000-8000-001a11000101)
+Unknown Service (0000fef3-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000000)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000001)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000004)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000002)
+- Unknown Characteristic [R] (00000000-0000-3000-8000-000000000003)
+D	20:55:05.976	gatt.setCharacteristicNotification(00000100-0004-1000-8000-001a11000102, true)
+I	20:55:06.071	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+D	20:55:07.386	[Broadcast] Action received: android.bluetooth.device.action.ACL_DISCONNECTED
+I	20:55:07.396	Disconnected
+Hypocrite-Ape
+4f838d10-4b8f-4d1d-a8fd-86760969a69b
+"txid": "bc59e775b0cd30b9f8d8e315e10ca812d8ec2bde9cd3fa41926ad2e44540d641",
+  "size": 192,
+  "version": 1,
+  "locktime": 0,
+  "fee": 4620,
+  "inputs": [
+    {
+      "coinbase": false,
+      "txid": "7cb04dc08e3b9f43c68379cc4167f4c999c462576a3454c8faa0ecc59e0b3667",
+      "output": 55,
+      "sigscript": "",
+      "sequence": 4294967295,
+      "pkscript": "0014bc5f5bf2bae6d3dec1c27f66409e3e7da2788ca7",
+      "value": 6714,
+      "address": "bc1qh304hu46umfaaswz0anyp8370k383r98tn47z3",
+      "witness": [
+        "3045022100b3a83353f505c817948785c2f2e59e48a6e0c6159569d2732b1a54e4152e76660220102998ead2fa2a4322bb7cfd5662f9ef1eea65b3b876897e523452c19effa66501",
+        "0251d9be71ef8df71aa38bae4de0570554cb1494e0ffbaeef2a4b8b168a19860bd"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "address": "bc1qewfwapewak3vpu0cw9xveu9flthajlg66fs6m5",
+      "pkscript": "0014cb92ee872eeda2c0f1f8714cccf0a9faefd97d1a",
+      "value": 2094,
+      "spent": false,
+      "spender": null
+    }
+  ],
+  "block": {
+    "mempool": 1711014155
+  },
+  "deleted": false,
+  "time": 1711014155,
+  "rbf": false,
+  "weight": 438
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
